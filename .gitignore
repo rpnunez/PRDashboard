@@ -1,0 +1,11 @@
+# Secrets - never commit the real token file
+.env
+.env.*
+!.env.example
+
+# Collector output (regenerated on every run)
+out/
+
+# Python
+__pycache__/
+*.pyc
